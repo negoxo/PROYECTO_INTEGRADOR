@@ -1,0 +1,86 @@
+*
+{
+    box-sizing: border-box; 
+}
+body
+{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Permanent Marker', cursive;
+}
+/* Diseño del Header */
+.navi li{
+    display: inline;
+    justify-content:center;
+    align-items: center;
+    padding-right: 10px;
+    margin-right: 20px;  
+}
+
+.ul{
+    list-style-type: none;
+    text-align: center;
+}
+/* Diseño del Main */
+
+.main{
+    display: flex;
+    height: 100%;
+}
+
+.contenedor_principal{
+    background-color: blue;
+    width: 70%;
+}
+
+.contenedor_a{
+    background-color: blueviolet;
+    display: flex;
+    height: 50%;
+}
+
+.cajita_1{
+    background-color: chartreuse;
+    height: 100%;
+    width: 33.3%;
+}
+.cajita_2{
+    background-color: rgb(0, 255, 136);
+    height: 100%;
+    width: 33.3%;
+}
+.cajita_3{
+    background-color: rgb(0, 247, 255);
+    height: 100%;
+    width: 33.4%;
+}
+
+.contenedor_b{
+    background-color: burlywood;
+    height: 50%;
+}
+
+.contenedor_lateral{
+    background-color: brown;
+}
+.cajita_4{
+    background-color: chartreuse;
+    height: 33.3%;
+}
+.cajita_5{
+    background-color: rgb(0, 255, 136);
+    height: 33.3%;
+}
+.cajita_6{
+    background-color: rgb(0, 247, 255);
+    height: 33.3%;
+}
+/* Diseño del Footer */
+.footer li{
+    display: inline;
+    justify-content:center;
+    align-items: center;
+    padding-right: 10px;
+    margin-right: 20px; 
+    
+}
